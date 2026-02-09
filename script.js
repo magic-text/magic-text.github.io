@@ -27,6 +27,8 @@ function generatePrompt() {
     const harapanEmosional = document.getElementById('harapanEmosional').value || '[contoh: pahala mengalir, kedekatan dengan anak, ketenangan hati]';
     const produk = document.getElementById('produk').value || '[contoh: worksheet anak tema islami]';
     const keunggulan = document.getElementById('keunggulan').value || '[contoh: 1.200++ halaman, bisa dipakai bertahun-tahun]';
+    const harga = document.getElementById('harga').value || '[berapa harga produk?]';
+    const kuota = document.getElementById('kuota').value || '[berapa banyak tersedia?]';
     const gayaBahasa = document.getElementById('gayaBahasa').value;
     const emoji = document.getElementById('emoji').value;
     const isHardSelling = !document.getElementById('hardSelling').checked;
@@ -40,9 +42,14 @@ dengan karakter:
 - Harapan emosional: ${harapanEmosional}
 - Produk yang ditawarkan: ${produk}
 - Keunggulan produk (boleh angka besar): ${keunggulan}
+- Harga produk: ${harga}
+- Kuota tersedia: ${kuota}
 - Gaya bahasa: ${gayaBahasa}
 - Gunakan emoji secukupnya (${emoji})
 - ${isHardSelling ? 'Boleh hard selling' : 'Jangan hard selling'}
+- Panjang caption maksimal 490 karakter (sesuai batas Threads)
+- Pesan harus sampai secara emosional
+- Format teks agar mudah dibaca di HP: setiap kalimat diberi enter dua kali
 - Tutup dengan CTA komentar 1 kata (contoh: "MAU")
 
 Strukturkan caption:
@@ -50,7 +57,8 @@ Strukturkan caption:
 2. Kalimat yang membayangkan pahala / masa depan
 3. Sentuhan rasa bersalah atau harapan yang halus
 4. Selipkan produk sebagai solusi
-5. CTA komentar`;
+5. Tambahkan elemen kelangkaan (harga dan kuota)
+6. CTA komentar`;
 
     return promptText;
 }

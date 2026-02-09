@@ -1,23 +1,3 @@
-Buatkan website untuk generate prompt konten yang nanti kira-kira menghasilkan teks seperti ini:
+Itu tadi saya salin promptnya ke ChatGPT, hasilnya masih kepanjangan 145 karakter di Threads. Jadi, olahlah supaya hasilnya itu nggak kepanjangan
 
-Buatkan 1 caption konten media sosial (gaya Threads / Instagram)
-dengan karakter:
-
-- Target audiens: [siapa? contoh: bunda yang ingin mengajarkan anak mengaji sendiri]
-- Masalah batin audiens: [contoh: takut melepas pendidikan agama ke orang lain, ingin pahala jariyah]
-- Harapan emosional: [contoh: pahala mengalir, kedekatan dengan anak, ketenangan hati]
-- Produk yang ditawarkan: [contoh: worksheet anak tema islami]
-- Keunggulan produk (boleh angka besar): [contoh: 1.200++ halaman, bisa dipakai bertahun-tahun]
-- Gaya bahasa: lembut, emosional, relatable, seolah curhat
-- Gunakan emoji secukupnya (🥹🫶🏻🩷)
-- Jangan hard selling
-- Tutup dengan CTA komentar 1 kata (contoh: "MAU")
-
-Strukturkan caption:
-1. Sapaan pembuka yang terasa personal
-2. Kalimat yang membayangkan pahala / masa depan
-3. Sentuhan rasa bersalah atau harapan yang halus
-4. Selipkan produk sebagai solusi
-5. CTA komentar
-
-Terus, itu teksnya bisa disalin
+Maksudnya, hasilnya nanti itu maksimal 490 karakter hasil olahan ChatGPTnya. Nggak boleh lebih
