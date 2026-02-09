@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Prompt Konten</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Generator Prompt Konten</h1>
+            <p>Buat prompt untuk konten media sosial (Instagram/Threads)</p>
+        </header>
+        
+        <main>
+            <form id="promptForm">
+                <div class="input-group">
+                    <label for="targetAudiens">Target Audiens:</label>
+                    <input type="text" id="targetAudiens" placeholder="Contoh: bunda yang ingin mengajarkan anak mengaji sendiri">
+                </div>
+                
+                <div class="input-group">
+                    <label for="masalahBatin">Masalah Batin Audiens:</label>
+                    <input type="text" id="masalahBatin" placeholder="Contoh: takut melepas pendidikan agama ke orang lain, ingin pahala jariyah">
+                </div>
+                
+                <div class="input-group">
+                    <label for="harapanEmosional">Harapan Emosional:</label>
+                    <input type="text" id="harapanEmosional" placeholder="Contoh: pahala mengalir, kedekatan dengan anak, ketenangan hati">
+                </div>
+                
+                <div class="input-group">
+                    <label for="produk">Produk yang Ditawarkan:</label>
+                    <input type="text" id="produk" placeholder="Contoh: worksheet anak tema islami">
+                </div>
+                
+                <div class="input-group">
+                    <label for="keunggulan">Keunggulan Produk:</label>
+                    <input type="text" id="keunggulan" placeholder="Contoh: 1.200++ halaman, bisa dipakai bertahun-tahun">
+                </div>
+                
+                <div class="input-group">
+                    <label for="gayaBahasa">Gaya Bahasa:</label>
+                    <input type="text" id="gayaBahasa" value="lembut, emosional, relatable, seolah curhat" readonly>
+                </div>
+                
+                <div class="input-group">
+                    <label for="emoji">Emoji (opsional):</label>
+                    <input type="text" id="emoji" value="🥹🫶🏻🩷" readonly>
+                </div>
+                
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" id="hardSelling" checked> Tidak Hard Selling
+                    </label>
+                </div>
+                
+                <button type="submit" id="generateBtn">Generate Prompt</button>
+            </form>
+            
+            <div id="resultContainer" class="result-container hidden">
+                <h2>Prompt yang Dihasilkan:</h2>
+                <div id="result"></div>
+                <button id="copyBtn" class="secondary-btn">Salin Teks</button>
+            </div>
+        </main>
+    </div>
+    
+    <div id="toast" class="toast hidden">Teks telah disalin!</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

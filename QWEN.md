@@ -1,0 +1,2 @@
+- Ini adalah website untuk tampilan mobile. Jika dibuka di laptop, max width 500px
+- Setiap alert, ganti dengan toast
